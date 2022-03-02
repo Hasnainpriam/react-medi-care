@@ -1,0 +1,10 @@
+.testimonial{
+  background-color: #e7d5ff;
+}
+.divider{
+  width: 300px;
+    height: 5px;
+    background-color: tomato;
+    display: inline-block;
+    text-align: center!important;
+}

@@ -1,0 +1,44 @@
+[
+  {
+      "key": 1,
+      "name": "Ophthalmology",
+      "rating": "5.0",
+      "des": "Ophthalmology is a branch of medicine and surgery that deals with the diagnosis and treatment of disorders of the eye. An ophthalmologist is a physician who specializes in ophthalmology.",
+      "img": "https://images.pexels.com/photos/5766074/pexels-photo-5766074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+      "key": 2,
+      "name": "Cardiology",
+      "rating": "4.4",
+      "des": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicineogy.",
+      "img": "https://images.pexels.com/photos/7108344/pexels-photo-7108344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+      "key": 3,
+      "name": "Dental Care",
+      "rating": "3.7",
+      "des": "Dental care · Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders · Dentistry, the professional care of teeth",
+      "img": "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+      "key": 4,
+      "name": "Child Care",
+      "rating": "4.7",
+      "des": "Child care, otherwise known as day care, is the care and supervision of a child or multiple children at a time, whose ages range from two weeks to eighteen years.",
+      "img": "https://images.pexels.com/photos/4546132/pexels-photo-4546132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+      "key": 5,
+      "name": "Pulmology",
+      "rating": "4.8",
+      "des": "Pulmonology is a field of medicine that focuses specifically on diagnosing and treating disorders of the respiratory system.",
+      "img": "https://images.pexels.com/photos/4226124/pexels-photo-4226124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+      "key": 6,
+      "name": "Gynecology",
+      "rating": "4.9",
+      "des": "Gynaecology or gynecology is the medical practice dealing with the health of the female reproductive system.",
+      "img": "https://images.unsplash.com/photo-1585010873004-923f9a54e54e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+  }
+]

@@ -1,0 +1,16 @@
+.about h1{
+  color: #6d0fbd;
+}
+.counts {
+  padding: 70px 0 60px;
+}
+.myIcon{
+  color: #6d0fbd;
+}
+.counter{
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 2px 2px gray;
+}
