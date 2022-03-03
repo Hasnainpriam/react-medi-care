@@ -1,0 +1,17 @@
+.notfound h1{
+  color:#2a1d77;
+  font-size: 4rem;
+  margin-top: 1.5rem;
+}
+
+.notfound button{
+  border: 0;
+  border-radius: 5px;
+  background-color: #2a1d77;
+  color: azure;
+  padding: .5rem;
+}
+.notfound button:hover{ 
+  background-color: #e7d5ff;
+  color: #2a1d77;
+}

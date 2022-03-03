@@ -12,14 +12,11 @@ import Doctors from '../Doctors/Doctors';
 const Home = () => {
   return (
     <div>
-      <Header></Header>
+    
       <Banner></Banner>  
       <Services></Services>
    <Testimonial></Testimonial>
       <Overview></Overview>
-      <About></About>
-      <Doctors></Doctors>
-      <Footer></Footer>
      
     </div>
   );

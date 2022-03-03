@@ -1,0 +1,25 @@
+.custom-button {
+  background-image: linear-gradient(to right, #360033 0%, #0b8793  51%, #360033  100%);
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.custom-button:hover {
+ background-position: right center;
+ color: #fff;
+ text-decoration: none;
+}
+
+.custom-button a{
+  color: white;
+  text-decoration: none;
+}

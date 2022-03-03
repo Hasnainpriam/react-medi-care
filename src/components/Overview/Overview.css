@@ -4,5 +4,6 @@
 }
 .box{
   box-shadow:5px 5px 5px  gray;
-
+  border: 2px solid black;
+  border-radius: 1rem;
 }
