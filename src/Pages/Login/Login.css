@@ -1,0 +1,8 @@
+.pass-button{
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+.pass-button:hover{
+  color: blue;
+}

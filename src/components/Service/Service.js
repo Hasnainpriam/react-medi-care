@@ -9,7 +9,7 @@ const Service = (props) => {
       <img src={img} className="card-img-top img-fluid" alt="..."/>
       <div className="card-body">
         <h5 className="card-title pb-2 fs-4">{name}</h5>
-       <Link to={`details/${key}`}> <button className="btn btn-dark">View Details</button></Link>
+       <Link to='/details'> <button className="btn btn-dark">View Details</button></Link>
       </div>
     </div>
   </div>

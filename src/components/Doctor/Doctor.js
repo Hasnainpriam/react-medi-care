@@ -14,7 +14,7 @@ const Doctor = (props) => {
         <p className="card-text">Address: {address}</p>
         <p className="card-text">Mobile: {Mobile}</p>
       </div>
-     <button className='custom-button ' ><Link to='/apponitment' > Appointment</Link> </button>
+     <button className='custom-button ' ><Link to='/apponitment' >Take Appointment Now</Link> </button>
     </div>
   </div>
   );

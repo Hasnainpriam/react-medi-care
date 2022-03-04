@@ -4,7 +4,7 @@ import notimg from '../../images/404.gif'
 import './Notfound.css'
 const Notfound = () => {
   return (
-    <div className='notfound'>
+    <div className='notfound '>
       <h1 >404</h1>
       <br />
       <Link to='/home'><button>Back to Home</button></Link> 

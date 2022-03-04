@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import useFirebase from '../../hooks/useFirebase';
 import logo from '../../images/favicon.ico'
 const Header = () => {
+  const refreshPage = ()=>{
+    window.location.reload();
+ }
   const {user,logOut}=useFirebase();
   return (
     <div style={{backgroundColor:'#e7d5ff'}}> 
@@ -25,21 +28,24 @@ const Header = () => {
          <Link to='/doctors' className="nav-link active"> <a  aria-current="page">Doctors</a></Link>
         </li>
         <li className="nav-item">
+         <Link to='/apponitment' className="nav-link active"> <a  aria-current="page">Appointment</a></Link>
+        </li>
+        <li className="nav-item">
          <Link to='/about' className="nav-link active"> <a  aria-current="page">About Us</a></Link>
         </li>
     </ul>
-    {
-      user.displayName?
-      <span className='p-2 fw-bold'>{user.displayName}</span>:
-      <span></span>
-    }
+
    <div className=''>
  
 {
   user.displayName ?
-  <button onClick={logOut} className="btn btn-danger ml-4" type="submit">Log out</button> 
+  <>
+   <span className='p-2 fw-bold'>{user.displayName}</span>
+   <button onClick={logOut} className="btn btn-danger mx-4" type="submit">Log out</button>
+  </> 
   :
   <>
+  
   <Link to='/login'><button className="btn btn-dark m-4" type="submit">Log in</button></Link>
   <Link to='/register'><button className="btn btn-dark m-4" type="submit">Sign up</button></Link>
   </>

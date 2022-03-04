@@ -1,7 +1,13 @@
+.notfound{
+  background-color: white;
+  padding: 2rem;
+}
+
 .notfound h1{
   color:#2a1d77;
   font-size: 4rem;
   margin-top: 1.5rem;
+
 }
 
 .notfound button{

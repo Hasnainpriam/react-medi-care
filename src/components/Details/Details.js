@@ -1,39 +1,23 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import Detail from '../Detail/Detail';
 
 const Details = () => {
-  let {deptId} = useParams();
-  const [detail,setDetail]=useState([]);
-  const [findDetail,setFindDetail]=useState([]);
-  console.log(parseInt(deptId))
+  const [details,setDetails]=useState([]);
 useEffect(()=>{
   fetch('../deptList.json')
   .then(res=>res.json())
-  .then(data=>setDetail(data))
+  .then(data=>setDetails(data))
 },[])
 
-useEffect(()=>{
-  let found =  detail.find(d => d.key === parseInt(deptId))
-  setFindDetail(found)
-},[detail])
 
   return (
-    <div className='container w-75 mt-5'>
-      <div className="card mb-3 " >
-  <div className="row g-0">
-    <div className="col-md-4">
-      <img src={findDetail?.img} className="img-fluid rounded-start" alt="..."/>
-    </div>
-    <div className="col-md-8">
-      <div className="card-body">
-        <h5 className="card-title">Department : {findDetail?.name}</h5>
-        <p className="card-text">{findDetail?.des}</p>
-        <p className="card-text"><small className="text-muted">Rating : {findDetail?.rating}</small></p>
-      </div>
-    </div>
+   <div className='container'>
+         <div class="row row-cols-1 row-cols-md-2 g-4 ">
+       {
+         details.map(detail=><Detail key={detail.key} detail={detail}></Detail>)
+       }
+         </div>
   </div>
-</div>
-    </div>
     
   );
 };
